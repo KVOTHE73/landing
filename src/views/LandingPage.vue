@@ -22,10 +22,10 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <RouterLink to="/" class="navbar-brand px-0 ms-0 justify-content-start">
+      <a href="/" class="navbar-brand px-0 ms-0 justify-content-start">
         <span class="navbar-logo d-md-block d-none"></span>
         <b class="me-3px">{{ t("brand") }}</b> {{ t("brandSurname") }}
-      </RouterLink>
+      </a>
       <div
         class="collapse navbar-collapse ms-auto d-md-flex align-items-center"
         id="navbarContent"

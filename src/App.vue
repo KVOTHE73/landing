@@ -5,11 +5,11 @@
 ================================================================================
 -->
 <template>
-  <router-view />
+  <LandingPage />
 </template>
 
 <script setup lang="ts">
-// No se necesita lógica en App.vue para una landing estática
+import LandingPage from "./views/LandingPage.vue";
 </script>
 
 <style scoped>

@@ -1,6 +1,5 @@
 import { createApp } from "vue";
 import App from "./App.vue";
-import router from "./router";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./assets/main.scss";
 
@@ -34,5 +33,4 @@ const app = createApp(App);
 
 app.use(i18n as unknown as { install: (app: any) => void });
 
-app.use(router);
 app.mount("#app");
