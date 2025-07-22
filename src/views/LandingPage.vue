@@ -212,7 +212,7 @@
       <img
         class="w-100 d-block position-relative"
         alt="Dasboard"
-        src="/assets/img/landing/dashboardPreviewDefault.png"
+        :src="`${base}assets/img/landing/dashboardPreviewDefault.png`"
       />
     </div>
     <div
@@ -530,7 +530,7 @@
     </div>
     <div
       class="position-absolute bg-size-cover bg-position-center bg-no-repeat top-0 start-0 w-100 h-100"
-      style="background-image: url(/assets/img/gallery/gallery-1.jpg)"
+      style="background-image: url(${base}assets/img/gallery/gallery-1.jpg)"
     ></div>
     <div
       class="position-absolute bg-gray-900 bg-opacity-80 top-0 start-0 w-100 h-100"
@@ -683,7 +683,7 @@
           <div class="card p-4 border-0 h-100 rounded-5">
             <div class="d-flex align-items-center mb-3">
               <img
-                src="/assets/img/user/user-1.jpg"
+                :src="`${base}assets/img/user/user-1.jpg`"
                 class="rounded-circle me-3 w-50px"
                 alt="Client 1"
               />
@@ -718,7 +718,7 @@
           <div class="card p-4 border-0 h-100 rounded-5">
             <div class="d-flex align-items-center mb-3">
               <img
-                src="/assets/img/user/user-3.jpg"
+                :src="`${base}assets/img/user/user-3.jpg`"
                 class="rounded-circle me-3 w-50px"
                 alt="Client 1"
               />
@@ -753,7 +753,7 @@
           <div class="card p-4 border-0 h-100 rounded-5">
             <div class="d-flex align-items-center mb-3">
               <img
-                src="/assets/img/user/user-13.jpg"
+                :src="`${base}assets/img/user/user-13.jpg`"
                 class="rounded-circle me-3 w-50px"
                 alt="Client 1"
               />
@@ -789,7 +789,7 @@
           <div class="card p-4 border-0 h-100 rounded-5">
             <div class="d-flex align-items-center mb-3">
               <img
-                src="/assets/img/user/user-8.jpg"
+                :src="`${base}assets/img/user/user-8.jpg`"
                 class="rounded-circle me-3 w-50px"
                 alt="Client 1"
               />
@@ -824,7 +824,7 @@
           <div class="card p-4 border-0 h-100 rounded-5">
             <div class="d-flex align-items-center mb-3">
               <img
-                src="/assets/img/user/user-5.jpg"
+                :src="`${base}assets/img/user/user-5.jpg`"
                 class="rounded-circle me-3 w-50px"
                 alt="Client 1"
               />
@@ -884,7 +884,7 @@
           >
             <div>
               <img
-                :src="`/assets/img/landing/blog-${index + 1}.jpg`"
+                :src="`${base}assets/img/landing/blog-${index + 1}.jpg`"
                 :alt="post.title"
                 class="object-fit-cover h-200px w-100 d-block"
               />
