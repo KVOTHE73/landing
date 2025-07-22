@@ -360,15 +360,11 @@
       <div class="row g-3 g-lg-5">
         <div class="col-xl-3 col-lg-4 col-sm-6">
           <a
-            :href="`${
-              import.meta.env.BASE_URL
-            }assets/img/landing/dashboard_light-default.jpg`"
+            :href="`${base}assets/img/landing/dashboard_light-default.jpg`"
             data-lity
             class="shadow d-block"
             ><img
-              :src="`${
-                import.meta.env.BASE_URL
-              }assets/img/landing/dashboard_light-thumb.jpg`"
+              :src="`${base}assets/img/landing/dashboard_light-thumb.jpg`"
               class="mw-100"
               alt="Dashboard light theme"
           /></a>
@@ -378,15 +374,11 @@
         </div>
         <div class="col-xl-3 col-lg-4 col-sm-6">
           <a
-            :href="`${
-              import.meta.env.BASE_URL
-            }assets/img/landing/dashboard_dark-default.jpg`"
+            :href="`${base}assets/img/landing/dashboard_dark-default.jpg`"
             data-lity
             class="shadow d-block"
             ><img
-              :src="`${
-                import.meta.env.BASE_URL
-              }assets/img/landing/dashboard_dark-thumb.jpg`"
+              :src="`${base}assets/img/landing/dashboard_dark-thumb.jpg`"
               alt="Dashboard dark theme"
               class="mw-100"
           /></a>
@@ -396,15 +388,11 @@
         </div>
         <div class="col-xl-3 col-lg-4 col-sm-6">
           <a
-            :href="`${
-              import.meta.env.BASE_URL
-            }assets/img/landing/ecommerce_light-default.jpg`"
+            :href="`${base}assets/img/landing/ecommerce_light-default.jpg`"
             data-lity
             class="shadow d-block"
             ><img
-              :src="`${
-                import.meta.env.BASE_URL
-              }assets/img/landing/ecommerce_light-thumb.jpg`"
+              :src="`${base}assets/img/landing/ecommerce_light-thumb.jpg`"
               alt="E-commerce light theme"
               class="mw-100"
           /></a>
@@ -414,15 +402,11 @@
         </div>
         <div class="col-xl-3 col-lg-4 col-sm-6">
           <a
-            :href="`${
-              import.meta.env.BASE_URL
-            }assets/img/landing/ecommerce_dark-default.jpg`"
+            :href="`${base}assets/img/landing/ecommerce_dark-default.jpg`"
             data-lity
             class="shadow d-block"
             ><img
-              :src="`${
-                import.meta.env.BASE_URL
-              }assets/img/landing/ecommerce_dark-thumb.jpg`"
+              :src="`${base}assets/img/landing/ecommerce_dark-thumb.jpg`"
               alt="E-commerce dark theme"
               class="mw-100"
           /></a>
@@ -432,15 +416,11 @@
         </div>
         <div class="col-xl-3 col-lg-4 col-sm-6">
           <a
-            :href="`${
-              import.meta.env.BASE_URL
-            }assets/img/landing/messenger_dark-default.jpg`"
+            :href="`${base}assets/img/landing/messenger_dark-default.jpg`"
             data-lity
             class="shadow d-block"
             ><img
-              :src="`${
-                import.meta.env.BASE_URL
-              }assets/img/landing/messenger_dark-thumb.jpg`"
+              :src="`${base}assets/img/landing/messenger_dark-thumb.jpg`"
               alt="Messenger dark theme"
               class="mw-100"
           /></a>
@@ -450,15 +430,11 @@
         </div>
         <div class="col-xl-3 col-lg-4 col-sm-6">
           <a
-            :href="`${
-              import.meta.env.BASE_URL
-            }assets/img/landing/messenger_light-default.jpg`"
+            :href="`${base}assets/img/landing/messenger_light-default.jpg`"
             data-lity
             class="shadow d-block"
             ><img
-              :src="`${
-                import.meta.env.BASE_URL
-              }assets/img/landing/messenger_light-thumb.jpg`"
+              :src="`${base}assets/img/landing/messenger_light-thumb.jpg`"
               alt="Messenger light theme"
               class="mw-100"
           /></a>
@@ -468,15 +444,11 @@
         </div>
         <div class="col-xl-3 col-lg-4 col-sm-6">
           <a
-            :href="`${
-              import.meta.env.BASE_URL
-            }assets/img/landing/todo_dark-default.jpg`"
+            :href="`${base}assets/img/landing/todo_dark-default.jpg`"
             data-lity
             class="shadow d-block"
             ><img
-              :src="`${
-                import.meta.env.BASE_URL
-              }assets/img/landing/todo_dark-thumb.jpg`"
+              :src="`${base}assets/img/landing/todo_dark-thumb.jpg`"
               alt="Todo list dark theme"
               class="mw-100"
           /></a>
@@ -486,15 +458,11 @@
         </div>
         <div class="col-xl-3 col-lg-4 col-sm-6">
           <a
-            :href="`${
-              import.meta.env.BASE_URL
-            }assets/img/landing/todo_light-default.jpg`"
+            :href="`${base}assets/img/landing/todo_light-default.jpg`"
             data-lity
             class="shadow d-block"
             ><img
-              :src="`${
-                import.meta.env.BASE_URL
-              }assets/img/landing/todo_light-thumb.jpg`"
+              :src="`${base}assets/img/landing/todo_light-thumb.jpg`"
               alt="Todo list light theme"
               class="mw-100"
           /></a>
@@ -504,15 +472,11 @@
         </div>
         <div class="col-xl-3 col-lg-4 col-sm-6">
           <a
-            :href="`${
-              import.meta.env.BASE_URL
-            }assets/img/landing/markdown_light-default.jpg`"
+            :href="`${base}assets/img/landing/markdown_light-default.jpg`"
             data-lity
             class="shadow d-block"
             ><img
-              :src="`${
-                import.meta.env.BASE_URL
-              }assets/img/landing/markdown_light-thumb.jpg`"
+              :src="`${base}assets/img/landing/markdown_light-thumb.jpg`"
               alt="Markdown editor light theme"
               class="mw-100"
           /></a>
@@ -522,15 +486,11 @@
         </div>
         <div class="col-xl-3 col-lg-4 col-sm-6">
           <a
-            :href="`${
-              import.meta.env.BASE_URL
-            }assets/img/landing/markdown_dark-default.jpg`"
+            :href="`${base}assets/img/landing/markdown_dark-default.jpg`"
             data-lity
             class="shadow d-block"
             ><img
-              :src="`${
-                import.meta.env.BASE_URL
-              }assets/img/landing/markdown_dark-thumb.jpg`"
+              :src="`${base}assets/img/landing/markdown_dark-thumb.jpg`"
               alt="Markdown editor dark theme"
               class="mw-100"
           /></a>
@@ -540,15 +500,11 @@
         </div>
         <div class="col-xl-3 col-lg-4 col-sm-6">
           <a
-            :href="`${
-              import.meta.env.BASE_URL
-            }assets/img/landing/login_light-default.jpg`"
+            :href="`${base}assets/img/landing/login_light-default.jpg`"
             data-lity
             class="shadow d-block"
             ><img
-              :src="`${
-                import.meta.env.BASE_URL
-              }assets/img/landing/login_light-thumb.jpg`"
+              :src="`${base}assets/img/landing/login_light-thumb.jpg`"
               alt="Login light theme"
               class="mw-100"
           /></a>
@@ -558,15 +514,11 @@
         </div>
         <div class="col-xl-3 col-lg-4 col-sm-6">
           <a
-            :href="`${
-              import.meta.env.BASE_URL
-            }assets/img/landing/login_dark-default.jpg`"
+            :href="`${base}assets/img/landing/login_dark-default.jpg`"
             data-lity
             class="shadow d-block"
             ><img
-              :src="`${
-                import.meta.env.BASE_URL
-              }assets/img/landing/login_dark-thumb.jpg`"
+              :src="`${base}assets/img/landing/login_dark-thumb.jpg`"
               alt="Login dark theme"
               class="mw-100"
           /></a>
@@ -1258,6 +1210,8 @@ import { useI18n } from "vue-i18n";
 import flagEs from "../assets/flags/es.png";
 import flagEn from "../assets/flags/en.png";
 const { t, messages, locale } = useI18n();
+
+const base = import.meta.env.BASE_URL;
 
 // 🧮 Computeds
 const isLangEs = computed(() => locale.value === "es");
