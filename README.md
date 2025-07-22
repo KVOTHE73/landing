@@ -38,18 +38,18 @@
 ## 🗂️ Estructura principal
 
 ```
+public/
+│ └── assets/
+│       └── img/landing/        # Imágenes estáticas para las secciones de Features y Gallery
 src/
 ├── views/
-│       └── LandingPage.vue # Vista principal con todas las secciones
+│       └── LandingPage.vue     # Vista principal con todas las secciones
 ├── assets/
-│       ├── flags/ # Banderas de idiomas
-│       └── img/landing/ # Imágenes de dashboards, ecommerce, etc.
+│       └── flags/              # Banderas de idiomas
 ├── i18n/
-│       └── messages.ts # Archivos de texto en español e inglés
-├── stores/
-│       └── themeStore.ts # Store para gestionar tema claro/oscuro
-├── main.ts # Punto de entrada
-├── App.vue # Componente raíz
+│       └── messages.ts         # Archivos de texto en español e inglés
+├── main.ts                     # Punto de entrada
+├── App.vue                     # Componente raíz
 └── ...
 ```
 
